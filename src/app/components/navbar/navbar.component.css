@@ -1,10 +1,34 @@
 
-.navbarButtons{
+.navButtons{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'poppins',sans-serif;
+    width: 100%;
+    background: #ebeef1;
 }
-.pageLinks{
-    margin-left: 50px;
-    margin-right: 90px;
+.navButtons button{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    margin: 30px;
+    width: 175px;
+    background: #ebeef1;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    color: navy;
+    transition:  0.3s ease-in-out;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99,169 , 0.16),
+                -10px -10px 10px -1px rgba(255, 255,255, 0.70);
 }
+.navButtons button :hover{
+    background-color: navy;
+    color: #ebeef1;
+}
+@media  (max-width: 600px){
+    .navbar{
+        display: none;
+    }
+}
+
