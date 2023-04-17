@@ -1,0 +1,25 @@
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:navy;
+    border-radius: 50px;
+    margin: 40px 60px;
+
+}
+.profile-container img{
+    max-width: 400px;
+    border-radius: 50px;
+    margin-top: 100px;
+    margin: 20px 100px;
+}
+.text-box{
+    color: #ebeef1;
+    margin-right: 20px;
+}
+.text-box h1{
+    font-size: 60px;
+}
+.text-box p{
+    font-size: 25px;
+}
