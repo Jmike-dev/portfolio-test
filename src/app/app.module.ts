@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutSectionComponent } from './components/about/about-section/about-section.component';
 import { ProjectSectionComponent } from './components/projects/project-section/project-section.component';
 import { ContactsectionComponent } from './components/contacts/contactsection/contactsection.component';
@@ -26,7 +27,8 @@ import { ContactsectionComponent } from './components/contacts/contactsection/co
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent],
