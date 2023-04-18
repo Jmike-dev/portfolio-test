@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .profile-container{
     display: flex;
     justify-content: center;
@@ -19,9 +22,11 @@
 }
 .text-box h1{
     font-size: 60px;
+    font-family: sans-serif;
 }
 .text-box p{
     font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .language-box{
     display: flex;
@@ -41,8 +46,13 @@
     padding: 20px 20px;
     margin: 10px 10px;
     justify-content: center;
-
 }
+.language-box h1{
+    color: #ebeef1;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+
 @media screen and (max-width: 768px) {
     .profile-container{
         width: 740px;
@@ -71,5 +81,9 @@
         max-width: 35px;
         margin: 20px 5px;
         padding: 0px 10px;
+    }
+    .language-box h1{
+        font-size: 20px;
+        padding-left: 10px;
     }
 }

@@ -19,11 +19,10 @@
     border: none;
     border-radius: 50px;
     color: navy;
-    transition:  0.3s ease-in-out;
     box-shadow: 10px 10px 10px -1px rgba(10, 99,169 , 0.16),
                 -10px -10px 10px -1px rgba(255, 255,255, 0.70);
 }
-.navButtons button :hover{
+.navButtons button:hover{
     background-color: navy;
     color: #ebeef1;
 }
